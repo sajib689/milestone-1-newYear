@@ -9,7 +9,7 @@ body{
 .width{
     max-width: 1250px;
     margin: 0 auto;
-    
+    margin-bottom: 120px;
 }
 header {
     position: relative;
@@ -40,3 +40,26 @@ header {
 }
 
 /* header css end from here */
+
+/* discount section css start from here */
+.discount-container {
+    text-align: center;
+}
+.discount-content h1{
+    color: #f00;
+    font-size: 85px;
+    font-weight: 700;
+}
+.discount-content h4{
+    color: #f00;
+    font-size: 24px;
+    font-weight: 500;
+}
+.discount-content h2{
+    font-size: 46px;
+    font-weight: 700;
+    color: #070211;
+}
+.discount-container img{
+   margin-top: 40px;
+}
