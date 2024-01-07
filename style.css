@@ -63,3 +63,164 @@ header {
 .discount-container img{
    margin-top: 40px;
 }
+/* discount css end from here */
+/* mid night css start from here */
+.mid-night-container{
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('./images/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    border-radius: 20px;
+}
+.mid-night-content{
+    position: absolute;
+    bottom: 170px;
+    left: 155px;
+}
+.mid-night-content h1{
+    color: #fff;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 85px;
+    letter-spacing: 7px;
+}
+.mid-night-content p{
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.mid-night-content button {
+    background-color: transparent;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    border: 0;
+    text-transform: uppercase;
+    margin-top: 30px;
+    cursor: pointer;
+}
+/* end here mid-night css and also start time-zone css */
+.time-zone-container{
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 480px;
+    max-width: 1250px;
+    margin: 0 auto;
+    margin-bottom: 120px;
+    border-radius: 20px;
+}
+
+.time-zone-container p{
+    color: #070211;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 50px;
+}
+.time-zone-container span{
+    color: #f00;
+}
+.time-zone-container button {
+    color: white;
+    background-color: #f00;
+    padding: 12px 20px;
+    border-radius: 8px;
+    border: 0;
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+}
+/*  end here time zone css and also start from coming soon css */
+
+.best-offer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.best-offer-first-content h4{
+    color: #f00;
+    font-size: 24px;
+    font-weight: 500;
+}
+.best-offer-first-content h1{
+    color: #070211;
+    font-size: 45px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+.best-offer-first-content p{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.best-offer-img{
+    border-radius: 463px;
+    border: 15px solid #F00;
+    width: 463px;
+    height: 463px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.best-offer-img img{
+    width: 365px;
+    height: 365px;
+}
+.best-offer-content-second h1{
+    color: #f00;
+    font-size: 45px;
+    font-weight: 700;
+}
+.best-offer-content-second p{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.best-offer-content-second img{
+    margin-top: 20px;
+}
+/*  end here best offer css and also start from holiday sale css */
+.holiday-sale-content{
+    text-align: center;
+}
+.holiday-sale-content h4{
+    font-size: 24px;
+    color: #070211;
+    font-weight: 500;
+}
+.holiday-sale-content h4{
+    font-size: 45px;
+    color: #070211;
+    font-weight: 900;
+    margin-top: 10px;
+}
+.holiday-sale-content span{
+    color: #F00;
+}
+.holiday-sale-content p {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-top: 20px;
+}
+
+.holiday-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 50px;
+}
+
+.holiday-sale-container img{
+    position: relative;
+    width: 100%;
+}
