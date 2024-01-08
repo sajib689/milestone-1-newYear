@@ -259,6 +259,9 @@ header {
 .best-gift-img-container img{
     width: 100%;
 }
+.best-gift-container h1{
+    color: #F00;
+}
 .best-gift-img-container img:hover{
     transform: scale(1.1);
     transition-duration: 1.4s;
