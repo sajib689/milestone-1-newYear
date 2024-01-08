@@ -191,6 +191,7 @@ header {
 /*  end here best offer css and also start from holiday sale css */
 .holiday-sale-content{
     text-align: center;
+    border-radius: 20px;
 }
 .holiday-sale-content h4{
     font-size: 24px;
@@ -218,9 +219,126 @@ header {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin-top: 50px;
+    
 }
-
-.holiday-sale-container img{
+.holiday-img img{
+    height: 550px;
     position: relative;
+}
+.holiday-bottom-img{
+   background-color: #F00;
+   height: 160px;
+   width: 1206px;
+   position: absolute;
+}
+.holiday-img-two {
+    position: relative;
+    
+}
+.discount-img {
+    position: absolute;
+    left: 605px;
+}
+.discount-img img{
+    width: 205px;
+    height: 205px;
+    
+}
+/* end here discount section css and also start a new section */
+
+.best-gift-container{
+    margin-top: 250px;
+    text-align: left;
+}
+.best-gift-img-container{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.best-gift-img-container img{
     width: 100%;
+}
+.best-gift-img-container img:hover{
+    transform: scale(1.1);
+    transition-duration: 1.4s;
+    cursor: pointer;
+}
+/* end here gift section css and also start a new section */
+.news-letter-container{
+    text-align: center;
+}
+.news-letter-container h1{
+    color: #070211;
+    font-size: 45px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+.news-letter-container p{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 50px;
+}
+.news-letter-container input {
+    width: 500px;
+    height: 60px;
+    border-radius: 50px;
+    color: #fff;
+    position: relative;
+    border: 0;
+    padding: 10px;
+}
+.news-letter-container input[type='email']::placeholder {
+    color: rgba(7, 2, 17, 0.30);
+     font-size: 20px;
+    
+}
+.news-letter-container button {
+    background-color: #F00;
+    border-radius: 0px 50px 50px 0px;
+    color: white;
+    padding: 22px 70px;
+    position: absolute;
+    left: 725px;
+    border: 0;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+/* end here news letter section and also start footer section  */
+
+footer{
+    background-color: #070211;
+    color: white;
+    margin-top: 200px !important;
+}
+footer hr{
+    width: 1200px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    margin: 0 auto;
+}
+.footer-address-content{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 100px 0px 100px 0px;
+}
+.footer-icons{
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+.footer-icons img{
+    margin: 15px;
+}
+.contact-number i{
+    margin-right: 12px;
+}
+.short-description{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 100px 0px 100px 0px;
 }
