@@ -72,6 +72,17 @@ header {
     height: 100vh;
     position: relative;
     border-radius: 20px;
+  
+}
+.mid-night-flex{
+    
+    float: right;
+}
+.mid-night-container img{
+    width: 320px;
+    height: 465px;
+    left: 100px;
+    margin: 50px;
 }
 .mid-night-content{
     position: absolute;
@@ -198,7 +209,7 @@ header {
     color: #070211;
     font-weight: 500;
 }
-.holiday-sale-content h4{
+.holiday-sale-content h1{
     font-size: 45px;
     color: #070211;
     font-weight: 900;
